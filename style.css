@@ -198,6 +198,31 @@ section,header{
  /*--------------------------*/
 
 
+/*----------------------------*/
+ /* animation section deasign start  */
+ /*--------------------------*/
+
+.card{
+    background-color: #71203e;
+    width:500px;
+    padding:30px;
+}
+.card li{
+    list-style:none;
+    margin: 40px 0;
+    text-transform: capitalize;
+    position: relative;
+}
+
+
+
+
+
+/*----------------------------*/
+ /* animation section deasign end  */
+ /*--------------------------*/
+
+
 
  /*----------------------------*/
  /* footer deasign start  */
