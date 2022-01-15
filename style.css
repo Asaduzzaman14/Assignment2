@@ -255,6 +255,7 @@ section,header{
          grid-template-columns: 1fr;
      }
      .banner-description{
+         min-width:300px;
          width:100%;
      }
      .left-banner,.right-banner{
