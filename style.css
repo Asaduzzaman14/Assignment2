@@ -254,6 +254,18 @@ section,header{
          display:grid;
          grid-template-columns: 1fr;
      }
+     .left-banner,.right-banner{
+         width:70%;
+     }
+     .right-banner img{
+         margin-left:20px;
+     }
+     .left-banner h1{
+         font-size: 30px;
+     }
+     .section-heading{
+         font-size: 30px;;
+     }
      /* header end  */
 
      /* logo start  */
@@ -288,7 +300,13 @@ section,header{
 
 
  @media only screen and (min-width:688px) and (max-width:992px) {
+    .banner{
+        width:80%;
+    }
+    .logos{
+        flex-wrap:wrap;
 
+    }
     .product-container{
         width:100%;
         grid-template-columns:repeat(2, 1fr);
