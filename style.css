@@ -365,12 +365,17 @@ li.python::after {
 @media only screen and (max-width:688px){
     
     .nav-title{
-        margin:auto
+        margin:auto;
+        width:100%;
+        text-align: center;
     }
+  
     .nav-manu{
         display: none;
     }
-    
+    .mobile{
+        display: block;
+    }
     .banner{
          display:grid;
          grid-template-columns: 1fr;
@@ -380,7 +385,8 @@ li.python::after {
          width:100%;
      }
      .left-banner,.right-banner{
-         width:50%;
+         width:100%;
+         text-align: center;
      }
      .right-banner{
          width:100%
@@ -390,7 +396,10 @@ li.python::after {
          width:100%
      }
      .left-banner h1{
-         font-size: 30px;
+         font-size: 25px;
+         width:100%;
+      
+
      }
      .section-heading{
          font-size: 30px;;
@@ -426,6 +435,7 @@ li.python::after {
      /* product start  */
      .footer{
          align-items: center;
+         padding:50px 0;
      }
 
  }
