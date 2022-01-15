@@ -255,10 +255,14 @@ section,header{
          grid-template-columns: 1fr;
      }
      .left-banner,.right-banner{
-         width:70%;
+         width:50%;
+     }
+     .right-banner{
+         width:100%
      }
      .right-banner img{
-         margin-left:20px;
+         margin-left:0;
+         width:100%
      }
      .left-banner h1{
          font-size: 30px;
