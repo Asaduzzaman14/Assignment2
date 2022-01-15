@@ -201,11 +201,17 @@ section,header{
 /*----------------------------*/
  /* animation section deasign start  */
  /*--------------------------*/
-
+.skill-section{
+    display:grid;
+   justify-content: center; 
+   
+}
 .card{
-    background-color: #71203e;
-    width:500px;
+  margin:0 auto;
+    background-color: #E02C6D;
+    width:400px;
     padding:30px;
+    color:#fff;
 }
 .card li{
     list-style:none;
@@ -213,9 +219,91 @@ section,header{
     text-transform: capitalize;
     position: relative;
 }
+li::before {
+    content: '';
+    width: 100%;
+    height: 10px;
+    border-radius: 100px;
+    background: #fff;
+    position: absolute;
+    top: calc(100% + 5px);
+}
+li::after {
+    content: '';
+    width: 0px;
+    height: 10px;
+    border-radius: 100px;
+    background: #151030;
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    animation: ease-in-out;
+    animation-duration: 3s;
+    animation-timing-function:ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    /* animation-direction: forward; */
+    /* animation-fill-mode: forwards; */
+}
+/* html  */
+li.html::after {
+    animation-name: html;
+}
 
 
+@keyframes html {
+    to {
+        width: 80%;
+    }
+}
+            
+li.css::after {
+    animation-name: css;
+}
+            /* css */
+@keyframes css {
+    to {
+        width: 70%;
+    }
+}
+            /* javascript */
+li.js::after {
+    animation-name: js;
+}
 
+@keyframes js {
+    to {
+        width: 70%;
+    }
+}
+        /* bootstrap */
+li.bootstrap::after {
+    animation-name: bootstrap;
+}
+
+@keyframes bootstrap {
+    to {
+        width: 70%;
+    }
+}
+li.react::after {
+    animation-name: react;
+}
+
+@keyframes react {
+    to {
+        width: 90%;
+    }
+}
+li.python::after {
+    animation-name: python;
+}
+
+@keyframes python {
+    to {
+        width: 70%;
+    }
+}
 
 
 /*----------------------------*/
