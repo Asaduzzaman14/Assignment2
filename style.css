@@ -412,6 +412,9 @@ li.python::after {
 
      }
 
+     .card{
+         width:100%
+     }
      /* product start  */
      .footer{
          align-items: center;
